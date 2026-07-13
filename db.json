@@ -1,0 +1,327 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "name": "Dr. Anand (HOD)",
+      "regNo": "STAFF001",
+      "role": "admin",
+      "email": "krishgokul4135@gmail.com",
+      "password": "admin123",
+      "isFirstLogin": true,
+      "mobileNumber": "9444012345"
+    },
+    {
+      "id": "u-student1",
+      "name": "Krish Gokul 4135 U P E",
+      "regNo": "62052414001",
+      "subId": "4135-O K S B I",
+      "role": "student",
+      "email": "krishgokul4135@gmail.com",
+      "password": "$2b$10$Y.8TnhXGS1rwGTPTFUBKnOB8JgoMOxNBODallYs0e/MiTdnpELoIq",
+      "isFirstLogin": false,
+      "mobileNumber": "9790045933"
+    },
+    {
+      "id": "u-cr1",
+      "name": "Rahul Sharma U P E",
+      "regNo": "62052414002",
+      "role": "cr",
+      "email": "cr@college.edu",
+      "password": "$2b$10$yWXcDieTqGJyDtQ4JlZsNe5hajk0miH3PlwZAGbCvu8RWMj3AU3jS",
+      "isFirstLogin": false,
+      "mobileNumber": "9677025129"
+    },
+    {
+      "id": "u-student2",
+      "name": "Abhishek Kumar U P E",
+      "regNo": "62052414027",
+      "role": "student",
+      "email": "abhishek@college.edu",
+      "password": "password",
+      "isFirstLogin": true,
+      "mobileNumber": "8888877777"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "t-1",
+      "studentName": "Krish Gokul 4135 U P E",
+      "regNo": "62052414001",
+      "amount": 500,
+      "purpose": "Symposium 2026 Registration",
+      "timestamp": "2026-07-01T10:30:00.000Z",
+      "status": "Approved",
+      "screenshotUrl": "",
+      "notes": "Paid via SBI, confirmed by CR"
+    },
+    {
+      "id": "t-2",
+      "studentName": "Abhishek Kumar U P E",
+      "regNo": "62052414027",
+      "amount": 300,
+      "purpose": "Industrial Visit Trip Contribution",
+      "timestamp": "2026-07-04T15:45:00.000Z",
+      "status": "Pending",
+      "screenshotUrl": "",
+      "notes": "SBI bank transfer"
+    }
+  ],
+  "events": [
+    {
+      "id": "e-1",
+      "title": "National Tech Symposium: COGNIZANCE 2026",
+      "type": "academic",
+      "date": "2026-07-15",
+      "description": "Annual national level technical symposium including coding, web dev, and paper presentation.",
+      "createdBy": "Dr. Anand (HOD)"
+    },
+    {
+      "id": "e-2",
+      "title": "Industrial Visit to ISRO (Sriharikota)",
+      "type": "iv",
+      "date": "2026-07-28",
+      "description": "IV for final year and pre-final year students. Requires payment of contribution by July 10.",
+      "createdBy": "Dr. Anand (HOD)"
+    },
+    {
+      "id": "e-3",
+      "title": "Mini-Project Source Code Submission",
+      "type": "deadline",
+      "date": "2026-07-10",
+      "description": "Submit your Github repository link and final report to the respective CR.",
+      "createdBy": "Rahul Sharma"
+    }
+  ],
+  "notices": [
+    {
+      "id": "n-1783353737096",
+      "title": "industrial visit",
+      "content": "An industrial visit bridges the gap between classroom theory and practical application. It exposes students to real-world operations, corporate culture, and modern technologies. Core content involves three main phases: Pre-visit Objectives, On-site Observations, and Post-visit Reporting.",
+      "priority": "high",
+      "date": "2026-07-06T16:02:17.096Z",
+      "createdBy": "Rahul Sharma U P E"
+    },
+    {
+      "id": "n-1",
+      "title": "Industrial Visit Instructions & Fee Collection",
+      "content": "All registered students for the ISRO Industrial Visit must contribute ₹300 on or before 10th July 2026. Please make payment to the active UPI address and upload the screenshot. CRs will verify in real-time.",
+      "date": "2026-07-04T09:00:00.000Z",
+      "createdBy": "Dr. Anand (HOD)",
+      "priority": "high"
+    },
+    {
+      "id": "n-2",
+      "title": "CR Permission Updates",
+      "content": "Class Representatives have been granted permission to update UPI IDs and verify transactions for the current odd semester registration.",
+      "date": "2026-07-02T14:20:00.000Z",
+      "createdBy": "Dr. Anand (HOD)",
+      "priority": "medium"
+    }
+  ],
+  "upiSettings": {
+    "upiId": "krishgokul4135-@oksbi",
+    "qrCodeUrl": "",
+    "qrCodeText": "upi://pay?pa=krishgokul4135-@oksbi&pn=DeptEvent"
+  },
+  "crPermissions": {
+    "canEditUpi": true,
+    "canVerifyPayments": true,
+    "canAddEvents": true
+  },
+  "notes": [
+    {
+      "id": "n-note-1",
+      "title": "Data Structures & Algorithms - Lecture Notes 1",
+      "subject": "Data Structures",
+      "fileUrl": "https://example.com/notes/dsa_lecture_1.pdf",
+      "content": "Detailed explanation of Arrays, Linked Lists, Stack, and Queue with complexity analysis (O(n) space/time analysis).",
+      "semester": "Semester 3",
+      "uploadedBy": "Dr. Anand (HOD)",
+      "date": "2026-07-01T09:00:00.000Z"
+    },
+    {
+      "id": "n-note-2",
+      "title": "Introduction to Database Systems (SQL and NoSQL)",
+      "subject": "DBMS",
+      "fileUrl": "https://example.com/notes/dbms_intro.pdf",
+      "content": "Covers ER Models, Relational Algebra, SQL queries, and MongoDB basics.",
+      "semester": "Semester 5",
+      "uploadedBy": "Dr. Anand (HOD)",
+      "date": "2026-07-03T11:20:00.000Z"
+    },
+    {
+      "id": "n-note-dsa-unit1",
+      "title": "Data Structures - UNIT 1: Linear Lists & Linked Lists",
+      "subject": "Data Structures",
+      "fileUrl": "https://mrcet.com/pdf/Lab%20Manuals/IT/R18A0503_Data%20Structures%20Notes.pdf",
+      "content": "--- UNIT-I SUMMARY ---\n\n1. Abstract Data Type (ADT):\nA mathematical model for data types where the data type is defined by its behavior (semantics) from the point of view of a user, of the data, specifically in terms of possible values, possible operations on data, and the behavior of these operations.\n\n2. Singly Linked List (SLL):\n- Linear collection of nodes, ordered by pointers.\n- SLL Node Structure:\n  struct node {\n    int data;\n    struct node *link;\n  };\n- Basic Operations:\n  - Insert at Beginning: temp->link = head; head = temp;\n  - Insert at End: Traversing to find the last node where link is NULL, then last->link = temp;\n  - Insert at Position: Traversing to position-1 (prev), then temp->link = prev->link; prev->link = temp;\n  - Delete Front: temp = head; head = head->link; delete temp;\n  - Delete End: Traversing to find second-to-last node, then setting its link to NULL and freeing the last node.\n\n3. Doubly Linked List (DLL):\n- Nodes contain data and two self-referential pointers: prev and next.\n- DLL Node Structure:\n  struct node {\n    int data;\n    struct node *prev;\n    struct node *next;\n  };\n- Permits bidirectional traversal.\n\n4. Circular Linked List (CLL):\n- The last node points back to the first node.\n- No NULL pointer exists at the end of the list.\n- Advantages:\n  - Any node can be traversed starting from any other node.\n  - Deletion is simplified as search for previous node can be started from that item itself.",
+      "semester": "Semester 3",
+      "uploadedBy": "Dr. Anand (HOD)",
+      "date": "2026-07-06T09:20:00.000Z"
+    },
+    {
+      "id": "n-note-dsa-unit2",
+      "title": "Data Structures - UNIT 2: Stacks, Queues, & Heaps",
+      "subject": "Data Structures",
+      "fileUrl": "https://mrcet.com/pdf/Lab%20Manuals/IT/R18A0503_Data%20Structures%20Notes.pdf",
+      "content": "--- UNIT-II SUMMARY ---\n\n1. Stack ADT:\n- LIFO (Last-In-First-Out) linear structure.\n- Basic Operations:\n  - push(item): Inserts item on top. Check for overflow: if(top == max - 1).\n  - pop(): Removes top item. Check for underflow: if(top == -1).\n- Applications:\n  - Infix to Postfix/Prefix expression conversion & evaluation.\n  - Tower of Hanoi problem solving.\n  - Recursive function calls & compile-time call stacks.\n\n2. Queue ADT:\n- FIFO (First-In-First-Out) linear structure.\n- Insertions at 'rear', deletions at 'front'.\n- Types of Queues:\n  - Simple Queue (using array/linked list). Underflow if front == -1 or front > rear; Overflow if rear == max - 1.\n  - Circular Queue: Resolves wasted space of linear queues. Array indices are treated as circular using modulo division: rear = (rear + 1) % max.\n\n3. Priority Queue & Heaps:\n- Collection of elements with associated priority.\n- Elements are removed in order of priority (Min Priority Queue or Max Priority Queue).\n- Heap Structure:\n  - Max Heap: A complete binary tree where the value of each node is >= values of its children.\n  - Min Heap: A complete binary tree where the value of each node is <= values of its children.\n  - Height of heap is O(log n), making heap insertion & deletion extremely efficient at O(log n) complexity.",
+      "semester": "Semester 3",
+      "uploadedBy": "Dr. Anand (HOD)",
+      "date": "2026-07-06T09:21:00.000Z"
+    },
+    {
+      "id": "n-note-dsa-unit3",
+      "title": "Data Structures - UNIT 3: Searching, Sorting, & Graphs",
+      "subject": "Data Structures",
+      "fileUrl": "https://mrcet.com/pdf/Lab%20Manuals/IT/R18A0503_Data%20Structures%20Notes.pdf",
+      "content": "--- UNIT-III SUMMARY ---\n\n1. Searching Methods:\n- Linear Search: Scans sequentially. Time complexity: O(n) worst/average, O(1) best.\n- Binary Search: Divide-and-conquer on sorted arrays. Time complexity: O(log n) worst/average, O(1) best.\n\n2. Sorting Algorithms & Time Complexities:\n- Bubble Sort: O(n^2) worst/average, O(n) best-case (optimized).\n- Selection Sort: O(n^2) worst/average/best (always scans rest of array).\n- Insertion Sort: O(n^2) worst/average, O(n) best (nearly-sorted data).\n- Quick Sort: O(n log n) average, O(n^2) worst-case (unbalanced pivot). Divide-and-conquer using pivot partitioning.\n- Merge Sort: O(n log n) worst/average/best. Stable sorting requiring O(n) extra space.\n- Heap Sort: O(n log n) worst/average/best. In-place sorting using binary heap heapify structure.\n\n3. Graphs:\n- Set of vertices V(G) and edges E(G).\n- Graph Representations:\n  - Adjacency Matrix: 2D array of size V x V where matrix[i][j] = 1 if edge exists, else 0.\n  - Adjacency List: Array of linked lists representing adjacent vertices.\n  - Incidence Matrix: Matrix of size V x E.\n- Traversals:\n  - Depth First Search (DFS): Backtracking recursive or iterative stack traversal.\n  - Breadth First Search (BFS): Layer-by-layer queue traversal.",
+      "semester": "Semester 3",
+      "uploadedBy": "Dr. Anand (HOD)",
+      "date": "2026-07-06T09:22:00.000Z"
+    },
+    {
+      "id": "n-note-dsa-unit4",
+      "title": "Data Structures - UNIT 4: Dictionaries & Hashing",
+      "subject": "Data Structures",
+      "fileUrl": "https://mrcet.com/pdf/Lab%20Manuals/IT/R18A0503_Data%20Structures%20Notes.pdf",
+      "content": "--- UNIT-IV SUMMARY ---\n\n1. Dictionaries:\n- Collection of key-value pairs where keys are associated with unique values.\n- Representations:\n  - Sorted Array: Fast search O(log n), slow insert/delete O(n).\n  - Sorted Chain (Linked List): Slow search O(n), fast insert/delete O(1) once position is found.\n  - Skip List: Probabilistic linked list with multiple forward pointer levels for O(log n) average search/insert.\n\n2. Hash Table Representation:\n- Maps keys to array buckets via a Hash Function H(key).\n- Home bucket/bucket is the mapped array position.\n- Hash Functions:\n  - Division Method: H(key) = key % table_size.\n  - Mid Square: Key is squared, middle digits are extracted as address.\n  - Multiplicative: H(key) = floor(p * (fractional part of key * A)) with constant A.\n  - Digit Folding: Key is divided into parts, which are summed together.\n  - Digit Analysis: Skewed digits are deleted from key to find uniform bucket distribution.\n\n3. Collision & Overflow Resolution:\n- Collision: H(K1) == H(K2) for K1 != K2. Synonym elements map to same home bucket.\n- Techniques:\n  - Chaining (Separate Chaining): Linked lists are maintained at each bucket index.\n  - Open Addressing:\n    - Linear Probing: Linear search for next empty bucket: (H(key) + i) % m.\n    - Quadratic Probing: Quadratic offset: (H(key) + i^2) % m. Solves primary clustering.\n    - Double Hashing: Uses second hash function H2(key) as step offset: H_new = (H1(key) + i * H2(key)) % m.\n  - Rehashing: Table size is doubled (to nearest prime) when completely full or half full (quadratic probing).",
+      "semester": "Semester 3",
+      "uploadedBy": "Dr. Anand (HOD)",
+      "date": "2026-07-06T09:23:00.000Z"
+    },
+    {
+      "id": "n-note-dsa-unit5",
+      "title": "Data Structures - UNIT 5: Binary Search Trees, AVL Trees, & B-Trees",
+      "subject": "Data Structures",
+      "fileUrl": "https://mrcet.com/pdf/Lab%20Manuals/IT/R18A0503_Data%20Structures%20Notes.pdf",
+      "content": "--- UNIT-V SUMMARY ---\n\n1. Trees & Traversals:\n- A tree is a hierarchical structure of nodes.\n- Binary Tree Traversals:\n  - Pre-order: Visit Root -> Traverse Left -> Traverse Right.\n  - In-order: Traverse Left -> Visit Root -> Traverse Right. (Yields sorted values in BST).\n  - Post-order: Traverse Left -> Traverse Right -> Visit Root.\n\n2. Binary Search Tree (BST) ADT:\n- Binary Tree satisfying: Values in Left Subtree < Root Value < Values in Right Subtree.\n- Average search/insert/delete operations are O(log n). Worst-case is O(n) for skewed trees.\n\n3. AVL Trees:\n- Height-balanced BST where Balance Factor BF(T) = h_Left - h_Right satisfies BF(T) ∈ {-1, 0, +1}.\n- Violation of balance requires rebalancing rotations:\n  - Single Rotations: LL (Left-Left) rotation and RR (Right-Right) rotation.\n  - Double Rotations: LR (Left-Right) rotation and RL (Right-Left) rotation.\n- Search, insertion, and deletion are guaranteed O(log n) time complexity.\n\n4. B-Trees and B+ Trees:\n- Multi-way search trees used for external disk storage and databases.\n- B-Tree of order m definition:\n  - Root has at least 2 children.\n  - All internal nodes have at least ceil(m/2) children.\n  - All leaf nodes are at same level.\n- B+ Tree (Variation of B-Tree):\n  - Data pointers are stored exclusively at the leaf level.\n  - Leaf nodes are linked sequentially for quick ordered range traversal.",
+      "semester": "Semester 3",
+      "uploadedBy": "Dr. Anand (HOD)",
+      "date": "2026-07-06T09:24:00.000Z"
+    }
+  ],
+  "internships": [
+    {
+      "id": "i-intern-1",
+      "title": "Software Engineering Intern (Summer 2026)",
+      "company": "Google India",
+      "description": "Join Google as a Software Engineer Intern. Experience with algorithms, object-oriented design, and complex systems architecture. Last Date to apply: July 30, 2026.",
+      "applyUrl": "https://careers.google.com",
+      "lastDate": "2026-07-30",
+      "postedBy": "Placement Cell"
+    },
+    {
+      "id": "i-intern-2",
+      "title": "Full Stack Web Developer Intern",
+      "company": "Razorpay",
+      "description": "Looking for interns proficient in React.js, Node.js, and MongoDB. Experience building fintech dashboards is a plus. Stipend: ₹45,000/month.",
+      "applyUrl": "https://razorpay.com/jobs",
+      "lastDate": "2026-07-25",
+      "postedBy": "Placement Cell"
+    }
+  ],
+  "companyLinks": [
+    {
+      "id": "l-link-1",
+      "name": "HackerRank Assessment Portal",
+      "url": "https://hackerrank.com/auth/login",
+      "description": "Official practice platform for department weekly coding tests.",
+      "category": "Assessment",
+      "postedBy": "Staff Coordinator"
+    },
+    {
+      "id": "l-link-2",
+      "name": "LeetCode Department League",
+      "url": "https://leetcode.com/problemset",
+      "description": "Join the daily problem-solving league hosted by the college developer community.",
+      "category": "Training",
+      "postedBy": "Staff Coordinator"
+    },
+    {
+      "id": "l-link-3",
+      "name": "Infosys Springboard Hub",
+      "url": "https://springboard.infosys.com",
+      "description": "Access free premium training modules on Cloud, AI, and enterprise design.",
+      "category": "Placement",
+      "postedBy": "Placement Cell"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-1",
+      "studentName": "Krish Gokul 4135 U P E",
+      "regNo": "62052414001",
+      "timestamp": "2026-07-05T08:45:00.000Z",
+      "location": "Block A - Room 101",
+      "course": "Dept. of CSE - II Year",
+      "status": "Success"
+    },
+    {
+      "id": "att-2",
+      "studentName": "Abhishek Kumar U P E",
+      "regNo": "62052414027",
+      "timestamp": "2026-07-05T08:50:00.000Z",
+      "location": "Block A - Room 101",
+      "course": "Dept. of CSE - II Year",
+      "status": "Success"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "lv-1",
+      "studentName": "Abhishek Kumar U P E",
+      "regNo": "62052414027",
+      "reason": "Severely down with high seasonal flu and fever.",
+      "type": "Sick Leave",
+      "startDate": "2026-07-05",
+      "endDate": "2026-07-06",
+      "status": "Pending",
+      "timestamp": "2026-07-05T08:10:00.000Z"
+    },
+    {
+      "id": "lv-2",
+      "studentName": "Arjun Prasad",
+      "regNo": "62052414005",
+      "reason": "Representing college at Inter-University Hackathon.",
+      "type": "On Duty",
+      "startDate": "2026-07-06",
+      "endDate": "2026-07-07",
+      "status": "Approved",
+      "timestamp": "2026-07-04T12:00:00.000Z"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "sch-1",
+      "subject": "Computer Networks (CN)",
+      "time": "08:45 AM - 09:40 AM",
+      "teacher": "Prof. Anand (HOD)",
+      "room": "Block A - LH 101",
+      "day": "Monday"
+    },
+    {
+      "id": "sch-2",
+      "subject": "Database Management Systems (DBMS)",
+      "time": "09:40 AM - 10:35 AM",
+      "teacher": "Dr. Anand (HOD)",
+      "room": "Block A - LH 101",
+      "day": "Monday"
+    },
+    {
+      "id": "sch-3",
+      "subject": "Design and Analysis of Algorithms",
+      "time": "10:50 AM - 11:45 AM",
+      "teacher": "Prof. Sudha",
+      "room": "Block A - LH 101",
+      "day": "Monday"
+    },
+    {
+      "id": "sch-4",
+      "subject": "Object Oriented Programming (Java)",
+      "time": "11:45 AM - 12:40 PM",
+      "teacher": "Prof. Ramesh",
+      "room": "Block A - LH 102",
+      "day": "Monday"
+    }
+  ]
+}
